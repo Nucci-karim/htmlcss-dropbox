@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+body{
+    height: 100vh;
+}
+
+.position-r{
+    position: relative;
+}
+
+.position-a{
+    position: absolute;
+}
+
+/* header */
+
+header{
+    background-color: rgb(108, 108, 255);
+}
+
+.h-contained{
+    width: 80%;
+    margin: 0 auto;
+    bottom: -200px;
+    padding-top: 50px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#logo{
+    display: inline;
+}
+
+#start{
+    background-color: rgb(32, 173, 255);
+    padding: 5px 15px;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.w-30{
+    flex-basis: 30%;
+}
+
+.w-70{
+    flex-basis: 70%;
+}
+
+#jumbo{
+    width: 100%;
+}
+
+p, .button .h-contained{
+    margin: 20px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.button{
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.btn-blu{
+    background-color: rgb(32, 173, 255);
+    color: white;
+    font-size: 20px;
+}
+
+.fa-arrow-down{
+    margin-top: 20px;
+}
+/* footer */
+footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+}
