@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-ul li{
+header nav ul li{
     list-style: none;
     margin: 10px;
 }
@@ -39,19 +39,19 @@ body{
 
 /* header */
 
-header{
-    background-color: rgb(108, 108, 255);
+#h-pt2{
+    background-color: rgb(93, 209, 255);
 }
 
 .h-contained{
     width: 80%;
     margin: 0 auto;
-    bottom: -200px;
-    padding-top: 50px;
+    
 }
 
 nav{
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     background-color: white;
 }
@@ -93,11 +93,11 @@ h1{
     width: 100%;
 }
 
-p, .button .h-contained{
+.p-h{
     margin: 20px;
 }
 
-p{
+.w-30 p{
     font-size: 20px;
     line-height: 140%;
 }
@@ -115,6 +115,185 @@ p{
 
 .fa-arrow-down{
     margin-top: 20px;
+}
+
+.img-spostata{
+    position: relative;
+    bottom: -50px;
+}
+
+/* main */
+.m-container{
+    width: 60%;
+    margin: 50px auto;
+}
+
+input[type=radio] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+}
+.margin-l-20{
+    margin-left: 20px;
+}
+
+input[type=radio] {
+    appearance: none;
+    background-color: rgb(253, 253, 253);
+    font: inherit;
+    color: rgb(171, 171, 171);
+    width: 1.5em;
+    height: 1.5em;
+    border: 0.15em solid rgb(194, 194, 194);
+    border-radius: 50%;
+    transform: translateY(0.35em);
+}
+
+input:checked{
+    background-color: #ffffff;
+    border: 0.35em solid rgb(79, 91, 255);
+}
+
+.col-30{
+    flex-basis: 30%;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.card-top{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.c-body{
+    width: 90%;
+    margin: auto;
+}
+
+.margin-v-10{
+    margin: 10px 0;
+}
+
+.padding-b-5{
+    padding-bottom: 5px;
+}
+
+.grigio{
+    color: rgb(183, 183, 183);
+}
+
+.c-body > ul li{
+    list-style: none;
+    margin: 30px 0;
+    padding-left: 1em;
+}
+
+.c-body ul li i{
+    margin-right: 5px;
+}
+
+.trial-btn{
+    background-color: rgb(37, 52, 253);
+    padding: 10px 5px;
+    margin: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+.card-body-a{
+    text-decoration: underline;
+    color: blue;
+}
+
+.card-body-hr{
+    width: 30%;
+    margin: 40px 0;
+}
+
+.blue{
+    color: blue;
+}
+
+.col-100{
+    flex-basis: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+h2{
+    margin: 30px 0;
+}
+
+.p-team{
+    margin: 30px 0;
+}
+
+.partner-btn{
+    padding: 10px 5px;
+    border: 1px solid gray;
+    color: gray;
+    margin: 20px 0;
+}
+
+.minus70-5{
+    flex-basis: 65%;
+}
+
+.minus30-5{
+    flex-basis: 25%;
+    margin: 0 auto;
+}
+
+.wrap{
+    flex-flow: wrap;
+}
+.business-card{
+    width: calc(100% / 3 - 2%);
+    margin-bottom: 20px;
+}
+
+.k500{
+    margin-top: 150px;
+}
+
+.square{
+    width: calc(100%/3);
+    height: calc(100vw/3);
+}
+
+.square-child{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.square-child img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-red{
+    background-color: darkred;
+}
+
+.bg-green{
+    background-color: lightgreen;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.bg-yellow{
+    background-color: yellow;
 }
 /* footer */
 footer{
