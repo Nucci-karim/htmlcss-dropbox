@@ -229,7 +229,12 @@ h2{
     margin: 30px 0;
 }
 
+.partner{
+    margin: 100px 0;
+}
+
 .partner-btn{
+    text-align: center;
     padding: 10px 5px;
     border: 1px solid gray;
     color: gray;
@@ -295,9 +300,83 @@ h2{
 .bg-yellow{
     background-color: yellow;
 }
+
+.bg-cyan{
+    background-color: rgb(98, 191, 240);
+}
+
+.square-text-c{
+    background-color: gray;
+    color: lightgray;
+    padding: 20px 20px;
+}
+
+#hr-designit{
+    width: 80px;
+    margin: 30px 0;
+}
+
+#autori{
+    margin-top: 20px;
+}
+.free-t{
+    text-align: center;
+    padding: 15px 5px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.free-t-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.padding-100{
+    padding: 100px 0;
+}
+
+.ask-container{
+    width: 60%;
+    margin: 0 auto;
+}
+.margin-y-30{
+    margin: 30px 0;
+}
+
 /* footer */
 footer{
-    height: 300px;
     background-color: black;
     color: white;
+    padding: 10px 0;
+}
+
+.f-container{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.f-container ul li{
+    list-style: none;
+    margin: 10px;
+    color: white;
+}
+
+.f-container a{
+    color: white;
+}
+
+.container-finale{
+    width: 10%;
+    margin-top: 40px;
+}
+
+.margin-y{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.margin-x-10{
+    margin: 0 10px;
 }
